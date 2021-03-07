@@ -1,0 +1,14 @@
+/dts-v1/;
+
+/ {
+        compatible = "rockchip,rk3328";
+
+        fragment@0 {
+                target-path = "/serial@ff120000";
+
+                __overlay__ {
+                        status = "okay";
+                };
+        };
+
+};
